@@ -1,0 +1,60 @@
+int A_Red=2;
+int A_Yellow=3;
+int A_Green=4;
+int K_Red=5;
+int K_Yellow=6;
+int K_Green=7;
+int T_Red=8;
+int T_Yellow=9;
+int T_Green=10;
+int H_Red=11;
+int H_Yellow=12;
+int H_Green=13;
+void setup(){
+pinMode(A_Red2, OUTPUT);
+pinMode(A_Yellow3, OUTPUT);
+pinMode(A_Green4, OUTPUT);
+pinMode(K_Red5, OUTPUT);
+pinMode(K_Yellow6, OUTPUT);
+pinMode(K_Green7, OUTPUT);
+pinMode(T_Red8, OUTPUT);
+pinMode(T_Yellow9, OUTPUT);
+pinMode(T_Green10, OUTPUT);
+pinMode(H_Red11, OUTPUT);
+pinMode(H_Yellow12, OUTPUT);
+pinMode(H_Green13, OUTPUT);
+}
+void loop(){
+digitalWrite(A_Red2, low); //AkkiN//
+digitalWrite(A_Green, High);
+delay(7000);
+digitalWrite(A_Green, low);
+digitalWrite(A_Yellow, High);
+delay(3000);
+digitalWrite(A_Yellow, Low);
+digitalWrite(A_Red, High);
+digitalWrite(K_Red, low);//AkkiS//
+digitalWrite(K_Green, High);
+delay(7000);
+digitalWrite(K_Green, low);
+digitalWrite(K_Yellow, High);
+delay(3000);
+digitalWrite(K_Yellow, Low);
+digitalWrite(K_Red, High);
+digitalWrite(T_Red, low);//AkkiE//
+digitalWrite(T_Green, High);
+delay(7000);
+digitalWrite(T_Green, low);
+digitalWrite(T_Yellow, High);
+delay(3000);
+digitalWrite(T_Yellow, Low);
+digitalWrite(T_Red, High);
+digitalWrite(H_Red, low);//Akkiw//
+digitalWrite(H_Green, High);
+delay(7000);
+digitalWrite(H_Green, low);
+digitalWrite(H_Yellow, High);
+delay(3000);
+digital Write(H_Yellow, Low) 
+digitalWrite(H_Red, High);
+}
