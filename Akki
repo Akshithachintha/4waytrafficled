@@ -25,36 +25,36 @@ pinMode(H_Yellow12, OUTPUT);
 pinMode(H_Green13, OUTPUT);
 }
 void loop(){
-digitalWrite(A_Red2, low); //AkkiN//
-digitalWrite(A_Green, High);
+digitalWrite(2, low); //AkkiN//
+digitalWrite(3, High);
 delay(7000);
-digitalWrite(A_Green, low);
-digitalWrite(A_Yellow, High);
+digitalWrite(3, low);
+digitalWrite(4, High);
 delay(3000);
-digitalWrite(A_Yellow, Low);
-digitalWrite(A_Red, High);
-digitalWrite(K_Red, low);//AkkiS//
-digitalWrite(K_Green, High);
+digitalWrite(4, Low);
+digitalWrite(2, High);
+digitalWrite(5, low);//AkkiS//
+digitalWrite(6, High);
 delay(7000);
-digitalWrite(K_Green, low);
-digitalWrite(K_Yellow, High);
+digitalWrite(6, low);
+digitalWrite(7, High);
 delay(3000);
-digitalWrite(K_Yellow, Low);
-digitalWrite(K_Red, High);
-digitalWrite(T_Red, low);//AkkiE//
-digitalWrite(T_Green, High);
+digitalWrite(7, Low);
+digitalWrite(5, High);
+digitalWrite(8, low);//AkkiE//
+digitalWrite(9, High);
 delay(7000);
-digitalWrite(T_Green, low);
-digitalWrite(T_Yellow, High);
+digitalWrite(9, low);
+digitalWrite(10, High);
 delay(3000);
-digitalWrite(T_Yellow, Low);
-digitalWrite(T_Red, High);
-digitalWrite(H_Red, low);//Akkiw//
-digitalWrite(H_Green, High);
+digitalWrite(10, Low);
+digitalWrite(T8, High);
+digitalWrite(11, low);//Akkiw//
+digitalWrite(12, High);
 delay(7000);
-digitalWrite(H_Green, low);
-digitalWrite(H_Yellow, High);
+digitalWrite(12, low);
+digitalWrite(13, High);
 delay(3000);
-digital Write(H_Yellow, Low) 
-digitalWrite(H_Red, High);
+digital Write(13, Low) 
+digitalWrite(11, High);
 }
